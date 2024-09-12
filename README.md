@@ -1,1 +1,2 @@
 # ga4-user-uniqueness-query
+This query can be run on a GA4 export. The result of the purpose is the user-uniqueness of each dimension (inclduing custom event parameters) in the export. The metric of user-uniqueness counts the number of users (`user_pseudo_id`) that created a specific value in a specific dimension. For example, how many users have created an event where `page_location` = `https://example.com`. Based on this metric, data controllers can determine how likely a given dimension is to identify a person. 
